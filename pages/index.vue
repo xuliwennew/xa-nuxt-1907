@@ -1,5 +1,8 @@
 <template>
-   <h1>hello nuxt</h1>
+   <div>
+     <nuxt-link to="/">首页</nuxt-link>
+     <nuxt-link to="/user">用户管理</nuxt-link>
+   </div>
 </template>
 
 <script>
